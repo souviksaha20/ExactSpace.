@@ -1,0 +1,35 @@
+/*page  desine*/
+  .head
+  {
+  background:gray;
+  text-align:fixed;
+  }
+  .pannel
+  {
+  background:gray;
+  }
+  table.table-bordered{
+    border:1px solid black;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+.thick {
+	font-size:13;
+    font-weight: bold;
+}
+/*
+ chart css
+*/
+.wrapper {
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+#canvas {
+  display: block;
+  margin: 0 auto;
+}
